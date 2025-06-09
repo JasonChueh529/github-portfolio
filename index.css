@@ -1,0 +1,13 @@
+/* Add any custom styles here (optional) */
+
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #1d4ed8; /* Tailwind blue-700 */
+}
