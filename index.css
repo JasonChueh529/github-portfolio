@@ -1,7 +1,12 @@
 /* Add any custom styles here (optional) */
 
+/* Smooth scroll and link hover */
 body {
   scroll-behavior: smooth;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #f9f9f9;
 }
 
 a {
@@ -10,4 +15,56 @@ a {
 
 a:hover {
   color: #1d4ed8; /* Tailwind blue-700 */
+}
+
+/* Projects section styles */
+#projects {
+  margin-top: 4rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.projects-container {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.project-card {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+.project-link {
+  color: #2563eb;
+  text-decoration: underline;
 }
