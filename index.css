@@ -54,7 +54,7 @@ body.page-body {
   height: 8rem;
   border-radius: 9999px; 
   margin: 0 auto 1rem auto;
-  box-shadow: 0 4px 6px rgba(255, 105, 180, 1);
+  box-shadow: 0 4px 6px 2px rgba(255, 105, 180, 1);
   object-fit: cover;
 }
 
