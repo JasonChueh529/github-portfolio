@@ -1,14 +1,13 @@
-/* General Reset and Body Styles */
-/* General Reset and Body Styles */
+
 body.page-body {
   scroll-behavior: smooth;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 2rem;
-  background-color: #f3f4f6; /* Tailwind's bg-gray-100 */
-  color: #1f2937; /* Tailwind's text-gray-800 */
+  background-color: #f3f4f6;
+  color: #1f2937; 
 }
 
-/* Header */
+
 .header {
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -16,7 +15,7 @@ body.page-body {
 }
 
 .header-container {
-  max-width: 64rem; /* approx 5xl (80rem in Tailwind is 1280px, 5xl is 80rem) */
+  max-width: 64rem; 
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -24,7 +23,7 @@ body.page-body {
 }
 
 .site-title {
-  font-size: 1.5rem; /* text-2xl is 1.5rem in Tailwind */
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -36,43 +35,43 @@ body.page-body {
 }
 
 .nav-links a:hover {
-  color: #1d4ed8; /* Tailwind blue-700 */
+  color: #1d4ed8;
 }
 
-/* Main Content */
+
 .main-content {
   max-width: 64rem;
   margin: 2.5rem auto 0 auto;
   padding: 0 1rem;
 }
 
-/* Sigma Section */
+
 .sigma-section {
   text-align: center;
 }
 
 .profile-img {
-  width: 8rem; /* 32 in Tailwind = 8rem */
+  width: 8rem; 
   height: 8rem;
-  border-radius: 9999px; /* full rounded */
+  border-radius: 9999px; 
   margin: 0 auto 1rem auto;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   object-fit: cover;
 }
 
 .sigma-title {
-  font-size: 2.25rem; /* text-4xl is 2.25rem */
+  font-size: 2.25rem; 
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
 .sigma-subtitle {
-  font-size: 1.125rem; /* text-lg is 1.125rem */
-  color: #4b5563; /* Tailwind gray-600 */
+  font-size: 1.125rem; 
+  color: #4b5563;
 }
 
 
-/* Links */
+
 a {
   transition: color 0.2s;
 }
@@ -81,7 +80,7 @@ a:hover {
   color: #1d4ed8;
 }
 
-/* Projects section styles */
+
 #projects {
   margin-top: 4rem;
 }
